@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="form">
+            <label for="iA1">First Adress</label>
+            <input type="text" class="inputAdress" id="iA1" value="0xdac17f958d2ee523a2206206994597c13d831ec7">
+            <label for="iA2">Second Adress</label>
+            <input type="text" class="inputAdress" id="iA2" value="0x2260fac5e5542a773aa44fbcfedf7c193bc2c599">
+            <label for="amount">Amount</label>
+            <input type="text" class="inputAmount" id="amount">
+            <input type="button" class="button" value="Send">
+        </div>
+        <div class="results">
+            <div class="sell">
+                <ul>
+                    <li>Sell:</li>
+                    <li id="tokenName1"></li>
+                    <li id="amount1"></li>
+                </ul>
+
+            </div>
+            <div class="buy">
+                <ul>
+                    <li>Buy:</li>
+                    <li id="tokenName2"></li>
+                    <li id="amount2"></li>
+                </ul>
+
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

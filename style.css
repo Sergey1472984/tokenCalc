@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color:gainsboro;
+}
+
+.content {
+    margin: 0 auto;
+
+}
+.form {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form input, label{
+    margin: 3px 0;
+}
+
+.inputAdress, .inputAmount {
+    width:350px;
+}
+
+.button {
+    width:70px;
+    height:30px;
+}
+
+.results {
+    width: 900px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: row;
+}
+.sell, .buy {
+    width:50%;
+    
+}
+
+li {
+    margin: 10px 0 0 0;
+    list-style: square;
+}
+
